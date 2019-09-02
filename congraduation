@@ -1,0 +1,39 @@
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+<ImageView	
+
+android:id="@+id/bell"
+android:layout_width="match_parent" 
+android:layout_height="match_parent"
+android:scaleType=”centerCrop”
+android:src=”@drawable/bluebell” />
+
+<TextView
+
+android:id="@+id/cong"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textColor="@android:color/white"
+android:text=”Happy Congraduation!!”
+android:textSize=”36sp”
+android:layout_centerHorizontal=”true”
+android:layout_centerVertical=”true” />
+		
+	<TextView
+
+android:id="@+id/wish"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textColor="#69F0AE"
+android:text=”I Wish You Happiness”
+android:textSize=”24sp”
+android:layout_centerHorizontal=”true”
+  android:layout_below="@id/cong" />
+	</RelativeLayout>
